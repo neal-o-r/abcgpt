@@ -1,0 +1,23 @@
+# third-party code: fetched by setup.sh, never committed
+nanoGPT/
+
+# datasets and anything derived from them
+*.bin
+*.pkl
+data/*/train.txt
+data/*/val.txt
+*.jsonl
+*.json
+*.csv
+
+# training outputs and generated material
+out-*/
+samples*.txt
+generated*.abc
+*.mid
+*.sf2
+
+# environment
+.venv/
+__pycache__/
+.DS_Store
